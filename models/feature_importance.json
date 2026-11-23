@@ -1,0 +1,198 @@
+[
+  {
+    "feature": "attacking_crossing",
+    "importance": 0.0444199483312782
+  },
+  {
+    "feature": "defensive_score",
+    "importance": 0.04113695034485404
+  },
+  {
+    "feature": "aerial_score",
+    "importance": 0.032567532266786436
+  },
+  {
+    "feature": "defending_marking",
+    "importance": 0.03189462444533023
+  },
+  {
+    "feature": "defending_sliding_tackle",
+    "importance": 0.03129574296902052
+  },
+  {
+    "feature": "playmaking_score",
+    "importance": 0.028392202243652548
+  },
+  {
+    "feature": "dribbling_score",
+    "importance": 0.028212295700623384
+  },
+  {
+    "feature": "defending_standing_tackle",
+    "importance": 0.02808227664730645
+  },
+  {
+    "feature": "attacking_heading_accuracy",
+    "importance": 0.027842105859644105
+  },
+  {
+    "feature": "mentality_interceptions",
+    "importance": 0.026290927095774574
+  },
+  {
+    "feature": "creativity_score",
+    "importance": 0.024500903365213485
+  },
+  {
+    "feature": "mentality_vision",
+    "importance": 0.024273377094168123
+  },
+  {
+    "feature": "speed_score",
+    "importance": 0.02397643860963634
+  },
+  {
+    "feature": "goalkeeping_score",
+    "importance": 0.02396786767061386
+  },
+  {
+    "feature": "attacking_finishing",
+    "importance": 0.023545952903030815
+  },
+  {
+    "feature": "attacking_score",
+    "importance": 0.022705253432286503
+  },
+  {
+    "feature": "goalkeeping_handling",
+    "importance": 0.02268159956104764
+  },
+  {
+    "feature": "finishing_score",
+    "importance": 0.022478143441750895
+  },
+  {
+    "feature": "skill_long_passing",
+    "importance": 0.02103246899644065
+  },
+  {
+    "feature": "mentality_positioning",
+    "importance": 0.02063528001918357
+  },
+  {
+    "feature": "skill_dribbling",
+    "importance": 0.020124863815394363
+  },
+  {
+    "feature": "ball_control_score",
+    "importance": 0.01969484317493376
+  },
+  {
+    "feature": "movement_sprint_speed",
+    "importance": 0.01898633407280871
+  },
+  {
+    "feature": "goalkeeping_positioning",
+    "importance": 0.01849858261679125
+  },
+  {
+    "feature": "movement_acceleration",
+    "importance": 0.018444215078482804
+  },
+  {
+    "feature": "mentality_aggression",
+    "importance": 0.01797183025987127
+  },
+  {
+    "feature": "goalkeeping_diving",
+    "importance": 0.01778623826297162
+  },
+  {
+    "feature": "goalkeeping_reflexes",
+    "importance": 0.017555985745612405
+  },
+  {
+    "feature": "attacking_short_passing",
+    "importance": 0.017361080270067848
+  },
+  {
+    "feature": "attacking_volleys",
+    "importance": 0.017311406928380284
+  },
+  {
+    "feature": "skill_fk_accuracy",
+    "importance": 0.016625573011203685
+  },
+  {
+    "feature": "mentality_penalties",
+    "importance": 0.016134554884778336
+  },
+  {
+    "feature": "power_strength",
+    "importance": 0.015954530615274704
+  },
+  {
+    "feature": "movement_agility",
+    "importance": 0.01575746186475777
+  },
+  {
+    "feature": "power_long_shots",
+    "importance": 0.01506542453050394
+  },
+  {
+    "feature": "movement_balance",
+    "importance": 0.01500624058215753
+  },
+  {
+    "feature": "movement_reactions",
+    "importance": 0.014924597144427891
+  },
+  {
+    "feature": "skill_curve",
+    "importance": 0.01490638553834218
+  },
+  {
+    "feature": "tactical_awareness_score",
+    "importance": 0.014833433225791356
+  },
+  {
+    "feature": "weight_kg",
+    "importance": 0.014692643664994063
+  },
+  {
+    "feature": "physical_score",
+    "importance": 0.014476380491649489
+  },
+  {
+    "feature": "power_stamina",
+    "importance": 0.014069038168685159
+  },
+  {
+    "feature": "goalkeeping_kicking",
+    "importance": 0.013668615948012492
+  },
+  {
+    "feature": "skill_ball_control",
+    "importance": 0.013353626837665387
+  },
+  {
+    "feature": "height_cm",
+    "importance": 0.013352045275020359
+  },
+  {
+    "feature": "power_jumping",
+    "importance": 0.01311929778789903
+  },
+  {
+    "feature": "power_shot_power",
+    "importance": 0.012925647733351505
+  },
+  {
+    "feature": "skill_moves",
+    "importance": 0.011400828638645964
+  },
+  {
+    "feature": "weak_foot",
+    "importance": 0.006066402833882571
+  }
+]

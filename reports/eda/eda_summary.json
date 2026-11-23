@@ -1,0 +1,52 @@
+{
+  "total_records": 16155,
+  "total_columns": 83,
+  "age_mean": 24.77623026926648,
+  "age_std": 4.625320660349504,
+  "age_min": 16,
+  "age_max": 44,
+  "overall_mean": 63.83039306716187,
+  "overall_median": 64.0,
+  "potential_mean": 68.35010832559578,
+  "position_counts": {
+    "CB": 2698,
+    "ST": 2470,
+    "CM": 1955,
+    "GK": 1775,
+    "RB": 1220,
+    "CDM": 1179,
+    "LB": 1173,
+    "CAM": 985,
+    "LM": 941,
+    "RM": 892,
+    "RW": 368,
+    "LW": 329,
+    "CF": 138,
+    "LWB": 17,
+    "RWB": 15
+  },
+  "top_nationalities": {
+    "England": 1627,
+    "Spain": 1051,
+    "France": 958,
+    "Argentina": 867,
+    "Italy": 795,
+    "Germany": 701,
+    "Colombia": 543,
+    "Republic of Ireland": 460,
+    "Netherlands": 419,
+    "Brazil": 416
+  },
+  "top_clubs": {
+    "Sevilla FC": 33,
+    "Newcastle United": 33,
+    "Hull City": 33,
+    "Torino": 33,
+    "OGC Nice": 33,
+    "Burnley": 33,
+    "Stoke City": 33,
+    "Queens Park Rangers": 33,
+    "Sporting Club de Bastia": 33,
+    "Everton": 33
+  }
+}

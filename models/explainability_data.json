@@ -1,0 +1,1306 @@
+{
+  "global_feature_importance": [
+    {
+      "feature": "attacking_crossing",
+      "importance": 0.0444199483312782
+    },
+    {
+      "feature": "defensive_score",
+      "importance": 0.04113695034485404
+    },
+    {
+      "feature": "aerial_score",
+      "importance": 0.032567532266786436
+    },
+    {
+      "feature": "defending_marking",
+      "importance": 0.03189462444533023
+    },
+    {
+      "feature": "defending_sliding_tackle",
+      "importance": 0.03129574296902052
+    },
+    {
+      "feature": "playmaking_score",
+      "importance": 0.028392202243652548
+    },
+    {
+      "feature": "dribbling_score",
+      "importance": 0.028212295700623384
+    },
+    {
+      "feature": "defending_standing_tackle",
+      "importance": 0.02808227664730645
+    },
+    {
+      "feature": "attacking_heading_accuracy",
+      "importance": 0.027842105859644105
+    },
+    {
+      "feature": "mentality_interceptions",
+      "importance": 0.026290927095774574
+    },
+    {
+      "feature": "creativity_score",
+      "importance": 0.024500903365213485
+    },
+    {
+      "feature": "mentality_vision",
+      "importance": 0.024273377094168123
+    },
+    {
+      "feature": "speed_score",
+      "importance": 0.02397643860963634
+    },
+    {
+      "feature": "goalkeeping_score",
+      "importance": 0.02396786767061386
+    },
+    {
+      "feature": "attacking_finishing",
+      "importance": 0.023545952903030815
+    },
+    {
+      "feature": "attacking_score",
+      "importance": 0.022705253432286503
+    },
+    {
+      "feature": "goalkeeping_handling",
+      "importance": 0.02268159956104764
+    },
+    {
+      "feature": "finishing_score",
+      "importance": 0.022478143441750895
+    },
+    {
+      "feature": "skill_long_passing",
+      "importance": 0.02103246899644065
+    },
+    {
+      "feature": "mentality_positioning",
+      "importance": 0.02063528001918357
+    }
+  ],
+  "position_specific_weights": {
+    "CAM": {
+      "top_positive": [
+        {
+          "feature": "mentality_vision",
+          "weight": 1.0937563074495127
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": 1.082212778866338
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": 0.8368330152665999
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": 0.4068500114771084
+        },
+        {
+          "feature": "skill_moves",
+          "weight": 0.3592426755135315
+        },
+        {
+          "feature": "creativity_score",
+          "weight": 0.3411462158057899
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.32695202375383636
+        },
+        {
+          "feature": "skill_long_passing",
+          "weight": 0.3018445827009559
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "attacking_score",
+          "weight": -0.2736660362046361
+        },
+        {
+          "feature": "movement_acceleration",
+          "weight": -0.3804653242309224
+        },
+        {
+          "feature": "skill_curve",
+          "weight": -0.4431043054221552
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -0.4506829222715285
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.48532867754160663
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.5301114296662188
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.8983523734814981
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -1.4400215964855345
+        }
+      ]
+    },
+    "CB": {
+      "top_positive": [
+        {
+          "feature": "defending_marking",
+          "weight": 2.033010814427629
+        },
+        {
+          "feature": "defensive_score",
+          "weight": 1.139109834372928
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": 0.9146627961837945
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": 0.8995513530743185
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": 0.8682620309317705
+        },
+        {
+          "feature": "aerial_score",
+          "weight": 0.7511614608194671
+        },
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": 0.6560266169589051
+        },
+        {
+          "feature": "power_strength",
+          "weight": 0.5114460262122889
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "power_long_shots",
+          "weight": -0.43241963936772604
+        },
+        {
+          "feature": "ball_control_score",
+          "weight": -0.5375931561578678
+        },
+        {
+          "feature": "attacking_score",
+          "weight": -0.6559678415737394
+        },
+        {
+          "feature": "power_stamina",
+          "weight": -0.6808804619286258
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": -0.698143021749182
+        },
+        {
+          "feature": "movement_acceleration",
+          "weight": -0.7433550317068834
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": -1.1128806568571539
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -1.313890521141184
+        }
+      ]
+    },
+    "CDM": {
+      "top_positive": [
+        {
+          "feature": "attacking_short_passing",
+          "weight": 1.1119571810967692
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": 1.0120453627740802
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": 0.9935250547394433
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": 0.8508881681791118
+        },
+        {
+          "feature": "skill_long_passing",
+          "weight": 0.8246675394446187
+        },
+        {
+          "feature": "defending_marking",
+          "weight": 0.6486590337197667
+        },
+        {
+          "feature": "mentality_vision",
+          "weight": 0.5785960426813027
+        },
+        {
+          "feature": "mentality_aggression",
+          "weight": 0.53620254844417
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "speed_score",
+          "weight": -0.3985156865598377
+        },
+        {
+          "feature": "skill_curve",
+          "weight": -0.43414397541218686
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": -0.46738732329952015
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": -0.6263386093001817
+        },
+        {
+          "feature": "movement_sprint_speed",
+          "weight": -0.6764816767862843
+        },
+        {
+          "feature": "attacking_score",
+          "weight": -0.7710983731688135
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": -0.8097648027218945
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -2.028217103300514
+        }
+      ]
+    },
+    "CF": {
+      "top_positive": [
+        {
+          "feature": "attacking_finishing",
+          "weight": 0.8306669040789952
+        },
+        {
+          "feature": "movement_reactions",
+          "weight": 0.7600731923312022
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": 0.6593247224506554
+        },
+        {
+          "feature": "attacking_volleys",
+          "weight": 0.5941267256581599
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.5497659275441988
+        },
+        {
+          "feature": "finishing_score",
+          "weight": 0.4429060717368927
+        },
+        {
+          "feature": "goalkeeping_positioning",
+          "weight": 0.4321709122254516
+        },
+        {
+          "feature": "mentality_aggression",
+          "weight": 0.4207657207754457
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "power_shot_power",
+          "weight": -0.47896559887997925
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.7765170203794538
+        },
+        {
+          "feature": "goalkeeping_handling",
+          "weight": -0.8215149090246888
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": -0.8315202944442773
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.8676858618267017
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.9062090415637198
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -0.9633169575559163
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -1.5604431793149998
+        }
+      ]
+    },
+    "CM": {
+      "top_positive": [
+        {
+          "feature": "skill_long_passing",
+          "weight": 1.3382707220281986
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": 0.9534616613766652
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": 0.854809494284146
+        },
+        {
+          "feature": "mentality_vision",
+          "weight": 0.8544433313002527
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": 0.3472310358877033
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": 0.3451463456090204
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": 0.33470097381470487
+        },
+        {
+          "feature": "power_stamina",
+          "weight": 0.20823650160229404
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "speed_score",
+          "weight": -0.3220861172061511
+        },
+        {
+          "feature": "aerial_score",
+          "weight": -0.3337373371012409
+        },
+        {
+          "feature": "goalkeeping_handling",
+          "weight": -0.388222746847118
+        },
+        {
+          "feature": "skill_curve",
+          "weight": -0.45200992349235103
+        },
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": -0.45545654803191077
+        },
+        {
+          "feature": "movement_sprint_speed",
+          "weight": -0.49265456964217147
+        },
+        {
+          "feature": "attacking_score",
+          "weight": -0.5425868039791765
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -1.7467179491181508
+        }
+      ]
+    },
+    "GK": {
+      "top_positive": [
+        {
+          "feature": "goalkeeping_score",
+          "weight": 0.44364929628667293
+        },
+        {
+          "feature": "goalkeeping_reflexes",
+          "weight": 0.4410464007173094
+        },
+        {
+          "feature": "goalkeeping_diving",
+          "weight": 0.4389124827197826
+        },
+        {
+          "feature": "goalkeeping_kicking",
+          "weight": 0.43830200436838374
+        },
+        {
+          "feature": "goalkeeping_positioning",
+          "weight": 0.4344192688855432
+        },
+        {
+          "feature": "goalkeeping_handling",
+          "weight": 0.4324863034033425
+        },
+        {
+          "feature": "movement_reactions",
+          "weight": 0.20437532153925833
+        },
+        {
+          "feature": "weight_kg",
+          "weight": 0.10536498404061483
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "speed_score",
+          "weight": -0.14706418685610131
+        },
+        {
+          "feature": "dribbling_score",
+          "weight": -0.1497397553670991
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": -0.15512799754575912
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": -0.15554978804937117
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -0.15573996226090195
+        },
+        {
+          "feature": "mentality_aggression",
+          "weight": -0.15994273153101307
+        },
+        {
+          "feature": "skill_moves",
+          "weight": -0.16556187982646076
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": -0.18105194015796003
+        }
+      ]
+    },
+    "LB": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.6323205482785388
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": 1.6015295343032552
+        },
+        {
+          "feature": "defending_marking",
+          "weight": 1.372370692244764
+        },
+        {
+          "feature": "defensive_score",
+          "weight": 1.0614209083729258
+        },
+        {
+          "feature": "goalkeeping_reflexes",
+          "weight": 0.6110960353288422
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": 0.5414349825553777
+        },
+        {
+          "feature": "skill_curve",
+          "weight": 0.33574413523792324
+        },
+        {
+          "feature": "power_shot_power",
+          "weight": 0.31271440470247547
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "mentality_positioning",
+          "weight": -0.39360807171567075
+        },
+        {
+          "feature": "finishing_score",
+          "weight": -0.4467477858201216
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": -0.455441878029961
+        },
+        {
+          "feature": "attacking_volleys",
+          "weight": -0.5308562568695318
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": -0.5754261022149704
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": -0.6376092828827533
+        },
+        {
+          "feature": "attacking_finishing",
+          "weight": -0.7936699643784986
+        },
+        {
+          "feature": "skill_long_passing",
+          "weight": -0.8369515186252168
+        }
+      ]
+    },
+    "LM": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.146750261835044
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.5162103261482056
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": 0.4858091786397417
+        },
+        {
+          "feature": "goalkeeping_reflexes",
+          "weight": 0.4057199300804222
+        },
+        {
+          "feature": "attacking_score",
+          "weight": 0.31950422117330673
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": 0.27448793515741166
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": 0.23238732984545138
+        },
+        {
+          "feature": "goalkeeping_kicking",
+          "weight": 0.21690624203826037
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "aerial_score",
+          "weight": -0.2394724522799188
+        },
+        {
+          "feature": "goalkeeping_diving",
+          "weight": -0.2582852989345204
+        },
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": -0.26480806659269523
+        },
+        {
+          "feature": "mentality_vision",
+          "weight": -0.3597286159997113
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.3760782675213506
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.44828969611687697
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.4668626577755829
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -0.8086477446504623
+        }
+      ]
+    },
+    "LW": {
+      "top_positive": [
+        {
+          "feature": "skill_dribbling",
+          "weight": 0.8408125180836258
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.59807104403516
+        },
+        {
+          "feature": "movement_acceleration",
+          "weight": 0.4967261796451678
+        },
+        {
+          "feature": "height_cm",
+          "weight": 0.4340824997384985
+        },
+        {
+          "feature": "attacking_score",
+          "weight": 0.42439762794323393
+        },
+        {
+          "feature": "attacking_finishing",
+          "weight": 0.42423091516646627
+        },
+        {
+          "feature": "dribbling_score",
+          "weight": 0.4232810929757042
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": 0.41051214439777395
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "skill_fk_accuracy",
+          "weight": -0.3124237988607619
+        },
+        {
+          "feature": "goalkeeping_diving",
+          "weight": -0.4433732350275095
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.5136908739093671
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.5361255433421298
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.5403597988576285
+        },
+        {
+          "feature": "mentality_vision",
+          "weight": -0.558921617279433
+        },
+        {
+          "feature": "goalkeeping_positioning",
+          "weight": -0.7396125875747082
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -1.048037952355532
+        }
+      ]
+    },
+    "LWB": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.6073509084921362
+        },
+        {
+          "feature": "skill_fk_accuracy",
+          "weight": 1.3733163801192292
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": 1.330245145545674
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": 1.2082619254299953
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": 1.034452041791651
+        },
+        {
+          "feature": "power_strength",
+          "weight": 1.0325516858928623
+        },
+        {
+          "feature": "defending_marking",
+          "weight": 0.9146486188088184
+        },
+        {
+          "feature": "defensive_score",
+          "weight": 0.7154509583255138
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": -0.7339481137436928
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": -0.7443957753801766
+        },
+        {
+          "feature": "ball_control_score",
+          "weight": -0.8854845268138675
+        },
+        {
+          "feature": "weight_kg",
+          "weight": -0.92773878906175
+        },
+        {
+          "feature": "goalkeeping_kicking",
+          "weight": -0.9971057624174872
+        },
+        {
+          "feature": "power_shot_power",
+          "weight": -1.0254757761932913
+        },
+        {
+          "feature": "movement_reactions",
+          "weight": -1.0278607120666945
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": -1.6882795578246328
+        }
+      ]
+    },
+    "RB": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.384569044037517
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": 1.1724865722717703
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": 1.106850975580161
+        },
+        {
+          "feature": "defending_marking",
+          "weight": 1.0763485262557382
+        },
+        {
+          "feature": "defensive_score",
+          "weight": 1.0580027732637145
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": 0.5350043983316525
+        },
+        {
+          "feature": "goalkeeping_diving",
+          "weight": 0.4760682667453929
+        },
+        {
+          "feature": "movement_reactions",
+          "weight": 0.31904376951146746
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "finishing_score",
+          "weight": -0.3539145590502339
+        },
+        {
+          "feature": "attacking_volleys",
+          "weight": -0.36290311324460567
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": -0.4161731254531237
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": -0.4820959746954307
+        },
+        {
+          "feature": "playmaking_score",
+          "weight": -0.5297736531971359
+        },
+        {
+          "feature": "attacking_finishing",
+          "weight": -0.5323443971853774
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": -0.6955727246961624
+        },
+        {
+          "feature": "skill_long_passing",
+          "weight": -0.9212051754815193
+        }
+      ]
+    },
+    "RM": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.09747605702531
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": 0.7002719134210083
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.45949302968587385
+        },
+        {
+          "feature": "attacking_score",
+          "weight": 0.34753610830201387
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": 0.34267540744291886
+        },
+        {
+          "feature": "power_shot_power",
+          "weight": 0.2866841825423305
+        },
+        {
+          "feature": "mentality_aggression",
+          "weight": 0.2762889368836422
+        },
+        {
+          "feature": "movement_sprint_speed",
+          "weight": 0.2487910030270839
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": -0.25724801580336093
+        },
+        {
+          "feature": "goalkeeping_positioning",
+          "weight": -0.39929242153688255
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": -0.4507128001259476
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.4540859542031242
+        },
+        {
+          "feature": "skill_fk_accuracy",
+          "weight": -0.4542168423685068
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.4629168624004777
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.4885473996162019
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -0.5648507664415395
+        }
+      ]
+    },
+    "RW": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 0.8131692393731123
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 0.6241563171891151
+        },
+        {
+          "feature": "attacking_score",
+          "weight": 0.51585023483206
+        },
+        {
+          "feature": "power_shot_power",
+          "weight": 0.3813056184226683
+        },
+        {
+          "feature": "movement_sprint_speed",
+          "weight": 0.37005171651768604
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": 0.35435549055586074
+        },
+        {
+          "feature": "skill_curve",
+          "weight": 0.33556897157705
+        },
+        {
+          "feature": "speed_score",
+          "weight": 0.3263562619593693
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "skill_long_passing",
+          "weight": -0.3345155046418702
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": -0.34702645934324283
+        },
+        {
+          "feature": "power_long_shots",
+          "weight": -0.35652025893431594
+        },
+        {
+          "feature": "skill_fk_accuracy",
+          "weight": -0.4898767626485411
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -0.549826482572221
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -0.5519680829865664
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.6097218679255249
+        },
+        {
+          "feature": "defending_marking",
+          "weight": -1.094644724477078
+        }
+      ]
+    },
+    "RWB": {
+      "top_positive": [
+        {
+          "feature": "attacking_crossing",
+          "weight": 1.877473269567
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": 1.4759239175062477
+        },
+        {
+          "feature": "power_stamina",
+          "weight": 1.3525703766043848
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": 1.166275117413792
+        },
+        {
+          "feature": "goalkeeping_positioning",
+          "weight": 1.0593282626257066
+        },
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": 0.9366110689948919
+        },
+        {
+          "feature": "weak_foot",
+          "weight": 0.9028127257704501
+        },
+        {
+          "feature": "goalkeeping_handling",
+          "weight": 0.6253422208597522
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "skill_moves",
+          "weight": -0.5664441605782462
+        },
+        {
+          "feature": "movement_reactions",
+          "weight": -0.6823914415568357
+        },
+        {
+          "feature": "finishing_score",
+          "weight": -0.7039197634829785
+        },
+        {
+          "feature": "height_cm",
+          "weight": -0.9226807852587486
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": -0.934256053391464
+        },
+        {
+          "feature": "attacking_finishing",
+          "weight": -0.9509803310590167
+        },
+        {
+          "feature": "movement_balance",
+          "weight": -0.9983575751356508
+        },
+        {
+          "feature": "attacking_short_passing",
+          "weight": -2.0899325581316406
+        }
+      ]
+    },
+    "ST": {
+      "top_positive": [
+        {
+          "feature": "attacking_finishing",
+          "weight": 1.5102518158152038
+        },
+        {
+          "feature": "mentality_positioning",
+          "weight": 1.0666788957560587
+        },
+        {
+          "feature": "finishing_score",
+          "weight": 0.9541737045165779
+        },
+        {
+          "feature": "attacking_volleys",
+          "weight": 0.7332623322705665
+        },
+        {
+          "feature": "attacking_heading_accuracy",
+          "weight": 0.7097142986262183
+        },
+        {
+          "feature": "mentality_penalties",
+          "weight": 0.6203407984447314
+        },
+        {
+          "feature": "skill_ball_control",
+          "weight": 0.48374689057999803
+        },
+        {
+          "feature": "movement_balance",
+          "weight": 0.48219730962083596
+        }
+      ],
+      "top_negative": [
+        {
+          "feature": "defending_marking",
+          "weight": -0.5171112087111537
+        },
+        {
+          "feature": "defending_sliding_tackle",
+          "weight": -0.5985049489798066
+        },
+        {
+          "feature": "skill_long_passing",
+          "weight": -0.8313967800203437
+        },
+        {
+          "feature": "defensive_score",
+          "weight": -0.880043738364273
+        },
+        {
+          "feature": "skill_dribbling",
+          "weight": -1.00490746422174
+        },
+        {
+          "feature": "defending_standing_tackle",
+          "weight": -1.1392797817304101
+        },
+        {
+          "feature": "mentality_interceptions",
+          "weight": -1.1674205634579173
+        },
+        {
+          "feature": "attacking_crossing",
+          "weight": -1.7245911613851845
+        }
+      ]
+    }
+  },
+  "all_features_rf_importance": {
+    "height_cm": 0.013352045275020359,
+    "weight_kg": 0.014692643664994063,
+    "weak_foot": 0.006066402833882571,
+    "skill_moves": 0.011400828638645964,
+    "attacking_crossing": 0.0444199483312782,
+    "attacking_finishing": 0.023545952903030815,
+    "attacking_heading_accuracy": 0.027842105859644105,
+    "attacking_short_passing": 0.017361080270067848,
+    "attacking_volleys": 0.017311406928380284,
+    "skill_dribbling": 0.020124863815394363,
+    "skill_curve": 0.01490638553834218,
+    "skill_fk_accuracy": 0.016625573011203685,
+    "skill_long_passing": 0.02103246899644065,
+    "skill_ball_control": 0.013353626837665387,
+    "movement_acceleration": 0.018444215078482804,
+    "movement_sprint_speed": 0.01898633407280871,
+    "movement_agility": 0.01575746186475777,
+    "movement_reactions": 0.014924597144427891,
+    "movement_balance": 0.01500624058215753,
+    "power_shot_power": 0.012925647733351505,
+    "power_jumping": 0.01311929778789903,
+    "power_stamina": 0.014069038168685159,
+    "power_strength": 0.015954530615274704,
+    "power_long_shots": 0.01506542453050394,
+    "mentality_aggression": 0.01797183025987127,
+    "mentality_interceptions": 0.026290927095774574,
+    "mentality_positioning": 0.02063528001918357,
+    "mentality_vision": 0.024273377094168123,
+    "mentality_penalties": 0.016134554884778336,
+    "defending_marking": 0.03189462444533023,
+    "defending_standing_tackle": 0.02808227664730645,
+    "defending_sliding_tackle": 0.03129574296902052,
+    "goalkeeping_diving": 0.01778623826297162,
+    "goalkeeping_handling": 0.02268159956104764,
+    "goalkeeping_kicking": 0.013668615948012492,
+    "goalkeeping_positioning": 0.01849858261679125,
+    "goalkeeping_reflexes": 0.017555985745612405,
+    "attacking_score": 0.022705253432286503,
+    "defensive_score": 0.04113695034485404,
+    "playmaking_score": 0.028392202243652548,
+    "dribbling_score": 0.028212295700623384,
+    "physical_score": 0.014476380491649489,
+    "speed_score": 0.02397643860963634,
+    "aerial_score": 0.032567532266786436,
+    "finishing_score": 0.022478143441750895,
+    "creativity_score": 0.024500903365213485,
+    "ball_control_score": 0.01969484317493376,
+    "tactical_awareness_score": 0.014833433225791356,
+    "goalkeeping_score": 0.02396786767061386
+  },
+  "lr_intercepts": [
+    1.5959286134078463,
+    -2.119681929573587,
+    1.185011464119178,
+    -0.20476926636832765,
+    1.9976635999811516,
+    -1.242823648370433,
+    -0.0798311936702963,
+    1.669247291817679,
+    -0.42249173587484284,
+    -2.1202082680300354,
+    -0.3412520085129266,
+    1.4652962697855862,
+    -0.3924832103990539,
+    0.4329000088026978,
+    -1.4225059871145416
+  ],
+  "feature_means": {
+    "height_cm": 181.0313937035727,
+    "weight_kg": 75.43562079943403,
+    "weak_foot": 2.9299610894941632,
+    "skill_moves": 2.2687477891758046,
+    "attacking_crossing": 49.989830208701804,
+    "attacking_finishing": 45.957552175451006,
+    "attacking_heading_accuracy": 53.22523876901309,
+    "attacking_short_passing": 56.97647683056243,
+    "attacking_volleys": 44.29395118500177,
+    "skill_dribbling": 54.54412805093739,
+    "skill_curve": 47.607357622921825,
+    "skill_fk_accuracy": 44.40528829147506,
+    "skill_long_passing": 51.63070392642377,
+    "skill_ball_control": 57.655995755217546,
+    "movement_acceleration": 65.14909798372834,
+    "movement_sprint_speed": 65.63574460558897,
+    "movement_agility": 63.197647683056246,
+    "movement_reactions": 60.707375309515385,
+    "movement_balance": 63.93172974885037,
+    "power_shot_power": 56.054032543332156,
+    "power_jumping": 65.12292182525646,
+    "power_stamina": 63.443049168730106,
+    "power_strength": 65.12203749557835,
+    "power_long_shots": 48.45003537318713,
+    "mentality_aggression": 55.49717014503007,
+    "mentality_interceptions": 46.96666077113548,
+    "mentality_positioning": 50.15652635302441,
+    "mentality_vision": 50.79218252564556,
+    "mentality_penalties": 49.65422709586134,
+    "defending_marking": 45.08215422709586,
+    "defending_standing_tackle": 47.74893880438628,
+    "defending_sliding_tackle": 45.955164485320125,
+    "goalkeeping_diving": 15.89149274849664,
+    "goalkeeping_handling": 15.505394411036434,
+    "goalkeeping_kicking": 15.337460205164485,
+    "goalkeeping_positioning": 15.499027237354085,
+    "goalkeeping_reflexes": 15.961620091970287,
+    "attacking_score": 49.155275026529885,
+    "defensive_score": 46.56010788822073,
+    "playmaking_score": 54.19588786699681,
+    "dribbling_score": 58.183856561726216,
+    "physical_score": 63.57203749557835,
+    "speed_score": 65.39242129465865,
+    "aerial_score": 55.49729296859647,
+    "finishing_score": 49.22521223912274,
+    "creativity_score": 49.44149274849663,
+    "ball_control_score": 57.33573576229218,
+    "tactical_awareness_score": 52.20532808631057,
+    "goalkeeping_score": 15.689830208701801
+  },
+  "feature_stds": {
+    "height_cm": 6.6153583336550685,
+    "weight_kg": 6.883753025244759,
+    "weak_foot": 0.6523985572476686,
+    "skill_moves": 0.7205357683444727,
+    "attacking_crossing": 15.816488264021366,
+    "attacking_finishing": 16.662315585870285,
+    "attacking_heading_accuracy": 14.71328925129047,
+    "attacking_short_passing": 14.557527905428758,
+    "attacking_volleys": 15.31086706361752,
+    "skill_dribbling": 16.260436179395445,
+    "skill_curve": 16.162997100388267,
+    "skill_fk_accuracy": 15.670564812827752,
+    "skill_long_passing": 14.888904413221606,
+    "skill_ball_control": 15.295069046145684,
+    "movement_acceleration": 13.711033841258907,
+    "movement_sprint_speed": 13.265194574827142,
+    "movement_agility": 14.33014579117827,
+    "movement_reactions": 9.567755173256705,
+    "movement_balance": 13.366867582446822,
+    "power_shot_power": 16.122529815166494,
+    "power_jumping": 11.506621111869665,
+    "power_stamina": 15.198874210823513,
+    "power_strength": 12.573532153745429,
+    "power_long_shots": 16.61348400810554,
+    "mentality_aggression": 16.83556826613242,
+    "mentality_interceptions": 18.234279223724915,
+    "mentality_positioning": 16.42794889631305,
+    "mentality_vision": 15.096141376951811,
+    "mentality_penalties": 14.604172803197724,
+    "defending_marking": 17.916822546925943,
+    "defending_standing_tackle": 18.703483881377107,
+    "defending_sliding_tackle": 18.151944279747394,
+    "goalkeeping_diving": 17.54428341064091,
+    "goalkeeping_handling": 16.414079637382898,
+    "goalkeeping_kicking": 16.006339539200017,
+    "goalkeeping_positioning": 16.577480458270912,
+    "goalkeeping_reflexes": 17.945002462850116,
+    "attacking_score": 13.987564259320179,
+    "defensive_score": 17.91188557087226,
+    "playmaking_score": 13.97990798770283,
+    "dribbling_score": 13.822581352318883,
+    "physical_score": 10.005605368304689,
+    "speed_score": 13.156062254453893,
+    "aerial_score": 9.676319225663704,
+    "finishing_score": 15.040853293542881,
+    "creativity_score": 14.40307976424419,
+    "ball_control_score": 13.61609666092637,
+    "tactical_awareness_score": 10.26779120214087,
+    "goalkeeping_score": 16.80628610983687
+  }
+}
